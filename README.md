@@ -117,14 +117,26 @@ Scans third-party libraries for deep supply chain vulnerabilities.
 
 ## ⚡ How to Build
 
+You can use these templates directly with the SwapLab Service.
+
+### 🎥 Video Tutorials
+
+* **[General Guide: How to Connect Repo & Start Building](https://youtu.be/3YTg785iycM)**
+    *(Note: This video demonstrates the Capacitor template, but the "Use this template" and connection steps are identical for Cordova).*
+
+* **[Construct 3 Special: Build with Capacitor & Support Mobile Ads](https://www.youtube.com/watch?v=0SEr57X80kQ)**
+    *(Recommended for Game Developers).*
+
 ### Option A: CI/CD Automation (Recommended)
 *Best for forking this entire collection (Monorepo) and building a specific game directly from GitHub.*
 
-1.  **Fork Repository:** Click **`Fork`** (top right) to copy this monorepo to your account. **Remember to set it to PRIVATE.**
-2.  **Access Service:** Log in to [SwapLab.net](https://swaplab.net). *(Your repo connects automatically upon login).*
+1.  **Create Repository:** Click **`Use this template`** (top right) > **Create a new repository**.
+    * Give your new repository a name.
+    * **Important:** Select **Private** visibility to protect your source code.
+2.  **Access Service:** Log in to [SwapLab.net](https://swaplab.net). *(Your new private repo connects automatically upon login).*
 3.  **Select Builder:** From the main menu, click **Repository Builder** (Builder Plus).
 4.  **Start Build:**
-    * Select your forked repository.
+    * Select your newly created repository.
     * Select "Cordova" (or Capacitor) as the Framework Type.
     * **Project Folder Name:** Enter the specific folder name you want to build (e.g., `c3-ghost-racer-android` or `cordova-app-hello-world`).
     * Click "Build from Repository".
@@ -135,7 +147,7 @@ Scans third-party libraries for deep supply chain vulnerabilities.
 1.  **Download:** Click **`<> Code`** > **Download ZIP**.
 2.  **Extract:** Unzip the downloaded file.
 3.  **Prepare Upload:**
-    * Choose the folder you want (e.g., `c3-ghost-racer-android`).
+    * Choose the folder you want (e.g., `cordova-app-hello-world`).
     * **Zip THAT folder** individually.
 4.  **Build:** Go to [SwapLab.net](https://swaplab.net).
 5.  Select **Cordova Builder** (or Capacitor Builder), upload your zip, and build.
