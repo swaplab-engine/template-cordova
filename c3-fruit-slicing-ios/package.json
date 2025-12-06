@@ -1,0 +1,7 @@
+{
+	"name": "Fruit Slicing Example",
+	"private": true,
+	"dependencies": {
+		"cordova-ios": "7.1.1"
+	}
+}

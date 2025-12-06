@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.flapping.bird" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Flapping Bird</name>
+	<description>Template-FlappingBird</description>
+	<author>Flapping Bird</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<content src="index.html" />
+     <allow-intent href="http://*/*" />
+     <allow-intent href="https://*/*" />
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<plugin name="cordova-plugin-inappbrowser" />
+
+</widget>
