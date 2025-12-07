@@ -106,6 +106,14 @@ These templates are unique because they can be built on **ANY** of our platforms
 
 ---
 
+## 🛡️ Security Philosophy: Freedom & Safety
+At SwapLab, we believe developers should have the freedom to build without restrictions. **We do not rely on a manually managed "whitelist" of allowed plugins.** You are free to use *any* npm package, Cordova plugin, or Capacitor library required for your project.
+
+To make this "Unlimited Ecosystem" safe, we employ a rigorous **Automated Security Gate** instead of manual reviews.
+
+
+---
+
 ## ⚙️ Build Configuration Guide
 
 SwapLab offers advanced build settings to customize your security and performance.
